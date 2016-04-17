@@ -1,0 +1,9 @@
+package com.app2;
+
+import java.util.List;
+
+public interface Buffer {
+
+	public void set(int value) throws InterruptedException;
+	public List<Integer> get() throws InterruptedException;
+}
